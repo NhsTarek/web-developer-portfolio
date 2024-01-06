@@ -10,7 +10,7 @@ body {
 .primary-btn {
     border-radius: 5px;
     background: #FD6E0A;
-    color:white;
+    color: white;
     font-size: 20px;
     font-weight: 700;
     border: 0;
@@ -23,6 +23,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 0px 200px;
 }
 
 nav>ul {
@@ -47,4 +48,21 @@ nav a {
 
     font-size: 45px;
     font-weight: 800;
+}
+
+/* header related styles */
+.header {
+    background-color: #FFF8F3;
+
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 584px;
+    height: 676px;
 }
